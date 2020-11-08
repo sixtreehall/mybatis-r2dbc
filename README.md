@@ -215,3 +215,9 @@ public ReactiveSqlSessionFactory reactiveSqlSessionFactory(ConnectionFactory r2d
 * R2DBC 规范: https://r2dbc.io/spec/0.8.2.RELEASE/spec/html/
 * R2DBC Pool: https://github.com/r2dbc/r2dbc-pool
 * Spring Data R2DBC: https://github.com/spring-projects/spring-data-r2dbc  https://docs.spring.io/spring-data/r2dbc/docs/1.0.0.M2/reference/html/
+
+---
+
+todo fix
+查询单个字段如
+Flux<Long> 字段 查询id集合 指定为java....Long 返回类型,但是返回有些问题貌似
